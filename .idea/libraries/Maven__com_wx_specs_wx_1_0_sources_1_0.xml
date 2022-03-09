@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.wx.specs:wx-1.0-sources:1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../Apps/DevelopTools/apache-maven-3.6.0-bin/maven_repository/com/wx/specs/wx-1.0-sources/1.0/wx-1.0-sources-1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../Apps/DevelopTools/apache-maven-3.6.0-bin/maven_repository/com/wx/specs/wx-1.0-sources/1.0/wx-1.0-sources-1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../Apps/DevelopTools/apache-maven-3.6.0-bin/maven_repository/com/wx/specs/wx-1.0-sources/1.0/wx-1.0-sources-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

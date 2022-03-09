@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sgxy.mapper.EmpMapper">
+    <!--del=1 删除 0没有删除-->
+    <select id="login" resultType="com.sgxy.pojo.Emp">
+        select *
+        from t_emp
+        where no = #{no}
+          and pass = #{pass}
+          and del = 0
+    </select>
+
+    <update id="updatePhoto">
+        update t_emp
+        set photo = #{filename}
+        where id = #{id}
+    </update>
+
+    <insert id="addEmp">
+        insert into t_emp values (null,#{no},123456,#{name},#{did},1,#{sex},#{email},#{qq},#{phone},#{createdate},#{photo},0)
+    </insert>
+</mapper>
